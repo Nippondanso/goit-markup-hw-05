@@ -383,7 +383,7 @@
     </main>
 
     <footer class="footer">
-        <div class="container flex-baseline">
+        <div class="container flex-baseline gap120">
 
             <div class="footer-slogan">
                 <a class="footer-logo footer-logo-display-block" href="./index.html">Web<span
@@ -430,7 +430,25 @@
                     </li>
                 </ul>
             </div>
-            
+
+            <div class="footer-subscribe-form-container">
+                <p class="footer-subcribe-form-title">Subscribe</p>
+
+                <form class="footer-subscribe-form">
+                    <label class="subscription-email-label" for="subscription-email">
+                        <input type="email" name="subscription-email" id="subscription-email" placeholder="E-mail" 
+                        class="subscription-email-input"/>
+                    </label>
+
+                    <button class="footer-subscribe-form-btn" type="submit">
+                        Subscribe
+                        <svg class="footer-subscribe-form-btn-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
         </div>
     </footer>
 </body>
