@@ -612,6 +612,10 @@ footer {
     margin-bottom: 8px;
 }
 
+.modal-form-field-16{
+    margin-bottom: 16px;
+}
+
 .form-input-label {
     font-family: var(--font-family);
     font-weight: 400;
